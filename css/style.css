@@ -1,0 +1,86 @@
+
+/* =========================================
+  Warna Text
+============================================ */
+
+.putih{
+    color : whitesmoke;
+}
+
+.hitam {
+    color :#2c3e50;
+}
+
+.p-10{
+  padding : 10px;
+}
+/* =========================================
+  Warna latar
+============================================ */
+
+.BGputih{
+    background-color : whitesmoke;
+}
+
+.BGhitam {
+    background-color :rgb(43, 42, 42);
+}
+
+.BGbiru {
+  background-color: dodgerblue;
+}
+
+.BGhijau {
+  background-color: green;
+}
+
+.brdHitam{
+  border: rgb(87, 85, 85) 1px solid;
+}
+/* ===========================================
+  Kotak Pesan 
+============================================== */
+#popup {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+}
+
+.kotak-pesan {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border: 1px solid #cac9c9;
+  padding: 25px;
+  width: 400px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  line-height: 25px;
+}
+
+.judulpesan0 {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 1em;
+  font-weight: normal;
+  /* color: #333333;  */
+  color: #000000;
+  line-height: auto;
+}
+
+.tombol{
+  width: 100%;
+  margin-top: 20px;
+}
+
+#tblOk{
+  width: 150px;
+}
